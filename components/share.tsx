@@ -59,17 +59,17 @@ export function Share() {
             query: { name, age },
           }}
         >
-          State in serve Side
+          Share State with serve Side
         </Link>
         <Link
           className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium  bg-black text-white hover:bg-black/90 h-10 px-3 py-2 w-full"
           href={{
-            pathname: '/client',
+            pathname: '/searchparams',
             query: { name, age },
           }}
 
         >
-          State in Client Side
+          Share State with SearchParmas
         </Link>
 
         <Link
@@ -79,7 +79,7 @@ export function Share() {
             query: { name, age },
           }}
         >
-          State in hook
+         Access State with nextjs hook/client 
         </Link>
 
         <button
