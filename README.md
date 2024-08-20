@@ -1,8 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Share State Management With URL
+Share the React state between any components, Page and route with the URL query parameters in Next.js/React.js.
 
-## Getting Started
+```
+git clone https://github.com/officialrajdeepsingh/state-management-with-url.git
+```
 
-First, run the development server:
+Next Install npm package with following command.
+
+```
+npm install
+# or
+yarn install
+# or
+pnpm install
+```
+Last run the development server:
 
 ```bash
 npm run dev
