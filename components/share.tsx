@@ -13,7 +13,7 @@ export function Share() {
   return (
     <div className="rounded-lg border bg-card text-card-foreground shadow-sm max-w-md mx-auto" data-v0-t="card">
       <div className="flex flex-col space-y-1.5 p-6">
-        <h3 className="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight">State Management</h3>
+        <h3 className="whitespace-nowrap text-2xl font-semibold leading-none tracking-tight">State Management with URL</h3>
         <p className="text-sm text-muted-foreground">Share complex React state between any components and sync to the URL query parameters in Next.js/React.js.</p>
       </div>
       <div className="p-6 space-y-4">
@@ -59,7 +59,7 @@ export function Share() {
             query: { name, age },
           }}
         >
-          Share State with serve Side
+          Share State with Serve Side
         </Link>
         <Link
           className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium  bg-black text-white hover:bg-black/90 h-10 px-3 py-2 w-full"
@@ -79,7 +79,7 @@ export function Share() {
             query: { name, age },
           }}
         >
-         Access State with nextjs hook/client 
+         Access State with Next.js hook/client 
         </Link>
 
         <button
