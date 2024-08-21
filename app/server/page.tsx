@@ -1,10 +1,7 @@
 import { searchParamsCache } from '@/utils/searchParams'
 import Link from "next/link"
-export default function Page({
-  searchParams
-}: {
-  searchParams: Record<string, string | string[] | undefined>
-}) {
+
+export default function Page({ searchParams }: { searchParams: { [key: string]: string | string[] | undefined }}) {
 
   const { name, age } = searchParamsCache.parse(searchParams)
 
