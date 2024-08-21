@@ -55,7 +55,7 @@ export function Share() {
         <Link
           className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium  bg-black text-white hover:bg-black/90 h-10 px-3 py-2 w-full"
           href={{
-            pathname: '/serve',
+            pathname: '/server',
             query: { name, age },
           }}
         >
