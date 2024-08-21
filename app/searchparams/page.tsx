@@ -1,9 +1,6 @@
 import Link from "next/link"
-export default function Page({
-  searchParams
-}: {
-  searchParams: Record<string, string | string[] | undefined>
-}) {
+
+export default function Page({ searchParams }:{ searchParams: { [key: string]: string | string[] | undefined }}) {
   return (
     <section className="relative items-center w-full px-5 py-12 mx-auto md:px-12 lg:px-24 max-w-7xl">
       <div className="grid grid-cols-1">
